@@ -16,7 +16,6 @@ object HelloObject {
     val master = config.getString("spark-conf.master")
     
     val conf = new SparkConf().setAppName(appname).setMaster(master)
-    // val conf = new SparkConf().setAppName("Bird Count").setMaster("yarn-cluster")
     val sc = new SparkContext(conf)
  
     val inputfile = config.getString("spark-conf.inputfile")
