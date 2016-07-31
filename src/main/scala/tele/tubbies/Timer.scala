@@ -8,7 +8,7 @@ object Timer {
     println("time flies like an arrow...")
   }
 
-  def main(args: Array[String]) {
+  def main1(args: Array[String]) {
     oncePerSecond(timeFlies)
   }
 }
