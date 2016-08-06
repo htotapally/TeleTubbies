@@ -7,8 +7,8 @@ import org.apache.spark.rdd.RDD.rddToPairRDDFunctions
 
 import com.typesafe.config._
 
-object HelloObject {
-  def main(args: Array[String]) {
+object ReduceByKey {
+  def main1(args: Array[String]) {
  
     // Load our own config values from the default location, application.conf
     val config = ConfigFactory.load()
